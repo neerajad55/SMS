@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skincare Products</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+
+    <header class="header">
+        <nav class="nav-container">
+            <a href="./home.html" class="logo">SKIN SERENITY</a>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="skincare.html">Products</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="signin-signup.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main>
+        <section class="hero">
+            <div class="p-card">
+                <img src="m1.jpg" alt="Hero Image" height="1150" width="800">
+                <video width="1080" height="440" autoplay muted playsinline loop>
+                    <source src="vid.mp4" type="video/mp4">
+                  </video>
+                  
+            <img src="m2.jpg" alt="model" height="5500" width="450">
+            </div>
+
+            <h1>Welcome to Our Skincare Store</h1>
+            <p style="font-family:Arial, Helvetica, sans-serif;" >
+                <center style="font-size: large;">
+                    Skincare is essential for maintaining healthy skin and overall well-being. Here are key reasons to incorporate a skincare routine:
+        
+        Protection: Shields skin from environmental damage and pollutants.
+        Health Maintenance: Helps manage conditions like acne and rosacea, promoting clearer skin.
+        Hydration: Locks in moisture for a smooth, supple appearance.
+        Aging Prevention: Reduces wrinkles and sagging with targeted ingredients.
+        Confidence Boost: Healthy skin enhances self-esteem and comfort.
+        Regeneration: Encourages cell turnover for a brighter complexion.
+        Customization: Tailors routines to individual skin concerns.
+        Self-Care: Provides mindfulness and stress relief through daily rituals.
+        Investing in skincare is about protecting your skin and nurturing your overall health. Prioritize a routine for radiant, healthy skin!
+                </center>
+            </p>
+        </section>
+<br>
+<br>
+<br>
+
+      
+        <section class="what-we-care-for">
+            <h2>What We Care For</h2>
+            <div class="care-section">
+                <div class="care-item">
+                    <img src="p1.jpg" alt="100% Authenticity">
+                    <h3>100% Authenticity</h3>
+                    <p>We guarantee genuine products as we source them directly from the manufacturers.</p>
+                </div>
+                
+                <div class="care-item">
+                    <img src="p2.jpg" alt="Freshness Guaranteed">
+                    <h3>Freshness Guaranteed</h3>
+                    <p>Our quality team checks to ensure that our hair and skin care products are nowhere near expiry date.</p>
+                </div>
+                
+                <div class="care-item">
+                    <img src="pro1.jpg" alt="Complete Transparency">
+                    <h3>Complete Transparency</h3>
+                    <p>Information on key ingredients for each beauty product online is on the website.</p>
+                </div>
+                
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Skincare Products. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<style>
+/* General styles for links in the navigation */
+.nav-links li a {
+    text-decoration: none;
+    color: #000; /* Set default color to black */
+    font-size: 18px;
+    transition: color 0.3s;
+    padding: 10px; /* Add padding for better spacing */
+}
+
+/* Specific style for the "Sign In" link */
+.nav-links li:last-child a {
+    color: #000; /* Black color for Sign In link */
+    background-color: #d1b3d1; /* Add a background color */
+    padding: 5px 10px; /* Add padding for better spacing */
+    border-radius: 5px; /* Rounded corners */
+    white-space: nowrap; /* Prevent text from breaking into two lines */
+}
+
+/* Hover effect for all links */
+.nav-links li a:hover {
+    background-color: #b396b3; /* Slightly darker background on hover */
+    color: white; /* Change text color on hover */
+}
+
+/* Flexbox layout for the navigation links to keep them side by side */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap; /* Ensure the links stay in a single line */
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Make sure the navigation links stay side by side on smaller screens */
+.nav-links li {
+    margin-left: 20px;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-wrap: wrap; /* Allow the links to wrap if needed on smaller screens */
+    }
+
+    .nav-links li {
+        margin-left: 10px; /* Reduce margin for smaller screens */
+    }
+
+    .nav-links li a {
+        padding: 5px 8px; /* Adjust padding to fit the links better */
+        font-size: 16px; /* Slightly reduce font size */
+    }
+}
+
+/* Header styling */
+.header {
+    background-color: #d1b3d1; /* Background color for the header */
+    padding: 10px;
+}
+
+</style>
